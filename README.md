@@ -4,7 +4,7 @@
 
 ## Команда
 * [Калач Максим](https://github.com/exactly228) - TeamLead & Backend Developer
-* [Путилин Иван](https://github.com/chinchopi) - DB Developer, BA & Tech Writer
+* [Путилин Иван](https://github.com/Pipigushkin) - DB Developer, BA & Tech Writer
 * [Щеголев Тимофей](https://github.com/alexdokinov) - Frontend Developer, Designer & QA
 
 ## Тема
