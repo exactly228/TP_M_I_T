@@ -1,4 +1,4 @@
-# Web-приложение Lingdisp
+# We-приложение Lingdisp
 
 ## ТП-3-3
 
@@ -8,7 +8,7 @@
 * [Калач Максим](https://github.com/exactly228) -  Frontend Developer, Designer  
 
 ## Тема
-Приложение для онлайн обучения английскому языку "Lingdisp".
+Приложение для  обучения английскому языку "Lingdisp".
 
 ## Сервисы
 
