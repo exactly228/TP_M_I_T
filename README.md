@@ -1,4 +1,4 @@
-# We-приложение Lingdisp
+# Web-приложение Lingdisp
 
 ## ТП-3-3
 
