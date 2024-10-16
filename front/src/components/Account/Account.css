@@ -1,0 +1,21 @@
+.account {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.account__container {
+  border: 3px solid #58cc05;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.account__text {
+  font-size: 18px;
+  color: #777777;
+}
