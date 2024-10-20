@@ -3,21 +3,21 @@ services:
   # DB
   postgres:
     restart: always
-    container_name: bochka-pg
+    container_name: languages-pg
     image: postgres:latest
     ports:
       - '5433:5432'
     environment:
       - POSTGRES_PASSWORD=root
       - POSTGRES_USER=root
-      - POSTGRES_DB=bochka
+      - POSTGRES_DB=languages
 
   # BACK
   back:
-    container_name: bochka-back
+    container_name: languages-back
     build: ./back/
     environment:
-      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/bochka
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/languages
       - SPRING_DATASOURCE_USERNAME=root
       - SPRING_DATASOURCE_PASSWORD=root
     depends_on:
@@ -33,3 +33,4 @@ services:
     build: ./front
     ports:
       - '3000:3000'
+    

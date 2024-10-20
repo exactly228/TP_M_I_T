@@ -52,6 +52,7 @@
 }
 
 .auth__button {
+  cursor: pointer;
   margin-top: 30px;
   width: 100%;
   text-align: center;

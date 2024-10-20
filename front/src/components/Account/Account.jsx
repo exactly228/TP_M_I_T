@@ -1,15 +1,27 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
-function Account() {
+function Account({ setIsLoggedIn }) {
+  const navigate = useNavigate();
+
+  function handleLogout() {
+    setIsLoggedIn(false);
+    localStorage.removeItem('userEmail');
+    localStorage.removeItem('userPassword');
+    localStorage.removeItem('isLoggedIn');
+    navigate('/');
+  }
   return (
     <div className="account">
       <div className="account__container">
         <p className="account__text">
-          ФИО: Иванов Андрей Феофанович
+          Email:
+          {' '}
+          {localStorage.getItem('userEmail')}
         </p>
-        <p className="account__text">
-          Email: ivanov@mail.ru
-        </p>
+        <button className="account__button" type="button" onClick={handleLogout}>
+          Выйти из аккаунта
+        </button>
       </div>
     </div>
   );

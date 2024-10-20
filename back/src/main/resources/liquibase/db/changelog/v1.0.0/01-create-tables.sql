@@ -5,7 +5,7 @@ create table if not exists users
     id       bigint generated always as identity primary key,
     name     varchar(50) not null,
     email    varchar(50) not null,
-    password varchar(50) not null
+    password varchar not null
 );
 
 create table if not exists courses
@@ -37,9 +37,6 @@ create table if not exists tests
     right_answer_3 varchar
 );
 
-
-insert into users (name, email, password)
-values ('root', 'root@mail.ru', 123);
 
 insert into courses (name, description, author, banner_url)
 values ('Английский для самых маленьких', 'Английский для самых маленьких.', 'Вадим Шнякин', 'https://avatars.mds.yandex.net/i?id=ad34f7da131c7257fbbcf19aa9bf7f71417f12ad-5859737-images-thumbs&n=13'),
