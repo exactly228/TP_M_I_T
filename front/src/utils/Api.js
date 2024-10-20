@@ -17,6 +17,7 @@ class Api {
     return axios.get(`${this._baseUrl}/courses`, {
       headers: {
         'Content-Type': 'application/json',
+        Authorization: `Basic ${btoa(`${localStorage.getItem('userEmail')}:${localStorage.getItem('userPassword')}`)}`,
       },
     })
       .then((res) => this._checkResponse(res));
@@ -26,14 +27,45 @@ class Api {
     return axios.get(`${this._baseUrl}/lessons/course/${id}`, {
       headers: {
         'Content-Type': 'application/json',
+        Authorization: `Basic ${btoa(`${localStorage.getItem('userEmail')}:${localStorage.getItem('userPassword')}`)}`,
       },
     })
       .then((res) => this._checkResponse(res));
   }
+
+  getTests(id) {
+    return axios.get(`${this._baseUrl}/tests/${id}`, {
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: `Basic ${btoa(`${localStorage.getItem('userEmail')}:${localStorage.getItem('userPassword')}`)}`,
+      },
+    })
+      .then((res) => this._checkResponse(res));
+  }
+
+  register(userData) {
+    return axios.post(`${this._baseUrl}/api/auth/register`, userData, {
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    })
+      .then((res) => this._checkResponse(res))
+      .catch((res) => Promise.reject(res.response.data));
+  }
+
+  login(userData) {
+    return axios.post(`${this._baseUrl}/api/auth/login`, userData, {
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    })
+      .then((res) => this._checkResponse(res))
+      .catch((res) => Promise.reject(res.response.data));
+  }
 }
 
 const api = new Api({
-  baseUrl: 'http://localhost:8080',
+  baseUrl: 'http://89.169.164.236:8080',
 });
 
 export default api;
