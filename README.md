@@ -31,7 +31,7 @@
 * Email: admin@mail.ru
 * Пароль: qwerty
 ## Видеоматериалы
-*Приложение  [(mov)](https://disk.yandex.ru/client/recent?idApp=client&dialog=slider&idDialog=%2Fdisk%2Fapp.mp4)
-*Защита  [(mov)](https://disk.yandex.ru/client/recent?idApp=client&dialog=slider&idDialog=%2Fdisk%2F%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%BF%D1%80%D0%BE%D0%B5%D1%82%D0%BA%D0%B0.mp4)
-*Бек  [(mov)](https://disk.yandex.ru/client/recent?idApp=client&dialog=slider&idDialog=%2Fdisk%2Fback.mp4)
-* Фронт  [(mov)](https://disk.yandex.ru/client/recent?idApp=client&dialog=slider&idDialog=%2Fdisk%2Ffront.mp4)
+*Приложение  [(mov)](https://disk.yandex.ru/i/Ex-QgOrfVFXqCw)
+*Защита  [(mov)](https://disk.yandex.ru/i/c4yItzd7JGEp4g)
+*Бек  [(mov)](https://disk.yandex.ru/d/TMLpAY63h5BHiA)
+* Фронт  [(mov)](https://disk.yandex.ru/i/n6Uo5LvWFZUrjw)
