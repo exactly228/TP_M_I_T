@@ -22,7 +22,7 @@
 ## Документация
 * Техническое задание [(docx)](https://github.com/exactly228/TP_M_I_T/blob/main/documents/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%20%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_%D0%A2%D0%9F%20(3)%20(2)%20(2).docx)
 * Сопроводительное письмо[(docx)](https://github.com/exactly228/TP_M_I_T/blob/main/documents/Soprovoditelnoe_pismo_2_1.docx)
-* Курсовой проект [(docx)](https://github.com/exactly228/TP_M_I_T/blob/f6ef878e19f6f9d5a5cad5ef8986dfbc6c25af43/documents/TP%20KURS.docx)
+* Курсовой проект [(docx)](https://github.com/exactly228/TP_M_I_T/blob/b9c6021f7f4d54b4be0970910b27567d9658e6c1/documents/TP%20KURS.docx)
 ## Презентация
 * Файл презентации [(pptx)](https://github.com/exactly228/TP_M_I_T/blob/main/documents/%D0%A2%D0%9F_LINGDISP%20(2).pptx)
 ## Развернутый проект
