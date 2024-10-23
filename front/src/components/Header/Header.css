@@ -20,6 +20,11 @@
   background-size: cover;
 }
 
+.header__wrapper {
+  display: flex;
+  gap: 20px;
+}
+
 .header__button {
   box-sizing: border-box;
   width: 60px;
@@ -30,7 +35,18 @@
   transition: 0.3s;
 }
 
+.header__button_test {
+  background: #fff;
+  color: #58cc05;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 700;
+}
+
 .header__button:hover {
   transform: translateY(-5px);
   box-shadow: 0 5px 8px 3px rgba(88, 204, 5, 0.4);
 }
+
