@@ -1,6 +1,6 @@
 # Web-приложение Lingdisp
 
-## ТП-3-3
+## ТП-2-3
 
 ## Команда
 * [Щеголев Тимофей](https://github.com/alexdokinov) - TeamLead, Business & System Analyst, QA  
