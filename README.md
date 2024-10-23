@@ -7,8 +7,10 @@
 * [Путилин Иван](https://github.com/Pipigushkin) - DB Developer, BA & Tech Writer, Backend-Developer
 * [Калач Максим](https://github.com/exactly228) -  Frontend Developer, Designer  
 
-## Тема
+## Описание проекта:
 Приложение для  обучения английскому языку "Lingdisp".
+
+Мы предоставляем удобное приложение для онлайн обучения английскому языку, с простым интерфейсом и возможностью прохождения тестирования уровня знаний языка и дальнейшему обучению, отталкиваясь от уровня знаний пользователя.
 
 ## Сервисы
 
@@ -35,6 +37,4 @@
 * защита  [(mov)](https://disk.yandex.ru/i/c4yItzd7JGEp4g)
 * Бек  [(mov)](https://disk.yandex.ru/d/TMLpAY63h5BHiA)
 * Фронт  [(mov)](https://disk.yandex.ru/i/n6Uo5LvWFZUrjw)
-  ### Основные элементы интерфейса продукта:
-  *![image]()
-  *![image]()
+  
