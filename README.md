@@ -35,3 +35,6 @@
 * защита  [(mov)](https://disk.yandex.ru/i/c4yItzd7JGEp4g)
 * Бек  [(mov)](https://disk.yandex.ru/d/TMLpAY63h5BHiA)
 * Фронт  [(mov)](https://disk.yandex.ru/i/n6Uo5LvWFZUrjw)
+  ### Основные элементы интерфейса продукта:
+  *![image]()
+  *![image]()
